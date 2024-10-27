@@ -1,0 +1,62 @@
+# C++-projektit
+
+# Kääntäjän luomat binääri- ja objektitiedostot
+*.o
+*.obj
+*.out
+*.exe
+*.dll
+*.so
+*.a
+*.lib
+
+# Kääntäjän väliaikaiset kansiot
+/build/
+bin/
+*.dSYM/  # macOS-debuggaustiedostot
+*.d
+
+# Python-projektit
+
+# Väliaikaiset kääntäjän tiedostot
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Virtuaaliympäristön kansiot
+venv/
+.env/
+env/
+
+# Kehitystyökalut
+.mypy_cache/
+.pytest_cache/
+.tox/
+.coverage
+coverage.xml
+htmlcov/
+
+# SQL ja tietokanta
+
+# Paikalliset tietokantatiedostot
+*.sqlite
+*.db
+*.sql
+
+# IDE:t ja editorit
+
+# VSCode
+.vscode/
+
+# PyCharm ja IntelliJ IDEA
+.idea/
+*.iml
+
+# Muut yleiset
+
+# macOS: Järjestelmätiedostot
+.DS_Store
+
+# Windows: Järjestelmätiedostot
+Thumbs.db
